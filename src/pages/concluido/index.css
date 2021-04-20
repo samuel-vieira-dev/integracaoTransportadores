@@ -1,0 +1,25 @@
+.containerConcluido{
+    margin-top: 20%;
+}
+.botao1 {
+    padding: 15px 40px;
+    margin: 20px;
+    background-color: rgb(103, 138, 255);
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.botao2 {
+    padding: 15px 40px;
+    margin: 20px;
+    background-color: rgb(255, 107, 107);
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+.divBotao {
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+.Registrar {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerLogo {
+    padding: 30px;
+}
+
+.containerTexto {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 3.7vh;
+}
+
+.container {
+    border: 5px solid #3498db;
+    border-radius: 10px;
+    width: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.containerRegistrar {
+    margin-left: -50px;
+    margin-bottom: 20px ;
+}
+
+.containerSenha {
+    margin-left: -50px;
+}
+
+.containerRegistrar > label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 30px;
+}
+
+.containerSenha > label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;  
+    padding: 0px 30px;
+}
+
+input[name=cnpj],[name=senha_site],[name=nome] {
+    width: 50%;
+    margin-left: -10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+}
+
+.containerButton {
+    padding: 35px 50px;
+}
+
+.buttonLink {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #3498db;
+}
