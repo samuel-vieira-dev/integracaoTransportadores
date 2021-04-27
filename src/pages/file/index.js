@@ -43,6 +43,7 @@ function UploadFile() {
   function enviou() {
     if (filename) {
     alert('Arquivo Enviado com sucesso!')
+    history.push('./concluido')
   } else{
     alert('Erro no envio do arquivo')
   }
